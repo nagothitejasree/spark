@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #f9f7f7;
+}
+
+/* Navbar */
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ccc;
+  background-color: rgb(104, 151, 111);
+}
+
+
+.main-navbar nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-lang-user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+.search-bar i {
+  margin-right: 8px;
+  color: #666;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.9rem;
+}
+
+/* Language */
+.language {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 5px;
+}
+
+/* User Initials */
+.user-initials {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #f7f5f5;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1f5c4f;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.banner-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+}
+
+.banner-left i {
+  color: #b3e600;
+}
+
+.upgrade-btn {
+  background-color: #c4f000;
+  color: rgb(248, 244, 244);
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.edu-apps-bg {
+  background-image: url('sr.jpg'); /* or bgistockphoto-1263424631-612x612.jpg */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.edu-apps-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.edu-apps-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.edu-apps-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.edu-apps-content ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.explore-apps-btn {
+  background-color: #ffc107;
+  color: #f8f8fa;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.explore-apps-btn:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #111;
+}
+
+.courses-section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.courses-section h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-img {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+
+.placeholder {
+  background-color: #e0e0e0;
+}
+
+.course-img {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+.course-img {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+.course-img {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+.course-img {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+.course-img {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+.subjects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.subject-column h2 {
+  font-size: 1.3rem;
+  color: #0a2f43;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.subject-column h2::after {
+  content: '›';
+  font-size: 1.3rem;
+  color: #0a2f43;
+  position: absolute;
+  right: -20px;
+}
+
+.subject-column ul {
+  list-style: none;
+}
+
+.subject-column ul li {
+  margin-bottom: 10px;
+  color: #00263a;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.subject-column ul li:hover {
+  color: #0070cc;
+  text-decoration: underline;
+}
